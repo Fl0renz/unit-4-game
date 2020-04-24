@@ -1,0 +1,10 @@
+.crystal-image {
+    width: 100px;
+    height: 100px;
+  }
+  body {
+      background-image: url(https://i1.wp.com/www.wallpapersales.uk.com/wp-content/uploads/2018/03/0A9E939E-07BA-4C42-B297-DCAC0C3A5B64.jpeg?fit=1502%2C1502&ssl=1);
+  }
+  #crystalOne, #crystalTwo, #crystalThree, #crystalFour{
+      width: 20%;
+  }
