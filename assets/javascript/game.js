@@ -1,51 +1,64 @@
 $(document).ready(function(){
+  // 
+var targetNumber = 0;
+targetNumber = Math.floor((Math.random() * 120) + 19);
+console.log(targetNumber)
+var gem1= Math.floor((Math.random() * 12) +1);
+console.log(gem1);
+var gem2 = Math.floor((Math.random() * 12) +1);
+console.log(gem2)
+var gem3 = Math.floor((Math.random() * 12) +1);
+console.log(gem3)
+var gem4 = Math.floor((Math.random() * 12) +1);
+console.log(gem4);
+var userGuess = 0; 
+
 $("#crystalOne").click(function(){
-    var targetNumber; 
-    targetNumber = Math.floor((Math.random() * 100) + 1);
-    $("#number-to-guess").html("number to guess: " + targetNumber);
     
+  $("#number-to-guess").html("number to guess: " + targetNumber);
 
-  })
 
-
-// function randomNumber(){
-   
-//     targetNumber = Math.floor((Math.random() * 100) + 1);
-//     $("#number-to-guess").append("number to guess: " + targetNumber);
-    
-// }
-// randomNumber();
-// console.log(targetNumber);
+});
+});
 
 
 
-  
+// $("#crystalTwo").click(function(){
+//     targetNumber = Math.floor((Math.random() * 100) +1);
+//     $("#number-to-guess").html("number to guess: " + targetNumber);
 
-//   $("#number-to-guess").text(targetNumber);
-//   var counter = 0;
-//   var numberOptions = [11, 5, 137, 23];
-//   for (var i = 0; i < numberOptions.length; i++) {
-   
-//     var imageCrystal = $("<img>");
-//     imageCrystal.addClass("crystal-image");
-//     imageCrystal.attr("src", "https://i.ytimg.com/vi/R-ojLPePF44/maxresdefault.jpg");
-//     imageCrystal.attr("data-crystalvalue", numberOptions[i]);
-//     $("#crystals").append(imageCrystal);
-//   }
-
-  
-//   $(".crystal-image").on("click", function() {
-//     var crystalValue = ($(this).attr("data-crystalvalue"));
-//     crystalValue = parseInt(crystalValue);
-//     counter += crystalValue;
-//     alert("New score: " + counter);
-//     if (counter === targetNumber) {
-//       alert("You win!");
-//     }
-
-//     else if (counter >= targetNumber) {
-//       alert("Try Again!!");
-//     }
 
 //   });
-});
+
+
+// $("#crystalThree").click(function(){
+//     targetNumber = Math.floor((Math.random() * 100) +1);
+//     $("#number-to-guess").html("number to guess: " + targetNumber);
+
+
+//   });
+
+// $("#crystalFour").click(function(){
+//     targetNumber = Math.floor((Math.random() * 100) +1);
+//     $("#number-to-guess").html("number to guess: " + targetNumber);
+
+
+// });
+
+// var gems= ["blue", "green", "red", "orange"];
+// function game(arr){
+//     for(var i=0; i < arr.length; i++){
+//       console.log(arr[i])
+//     }
+
+// }
+// game(gems);
+// // function randomNumber(){
+   
+// //     targetNumber = Math.floor((Math.random() * 100) + 1);
+// //     $("#number-to-guess").append("number to guess: " + targetNumber);
+    
+// // }
+// // randomNumber();
+// // console.log(targetNumber);
+
